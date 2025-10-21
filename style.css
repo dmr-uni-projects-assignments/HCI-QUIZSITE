@@ -45,3 +45,13 @@ h2 {
     font-size: 16px;
     cursor: pointer;
 }
+
+.formcont {
+    background-color: gray;
+    width: 300px;
+    margin: 0 auto;
+    color: white;
+}
+hr {
+    margin: 20px 0;
+}
