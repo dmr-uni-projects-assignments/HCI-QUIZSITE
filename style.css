@@ -18,7 +18,23 @@ header {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 .bigbutton {
+    background-color: rgb(159, 83, 159);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.smallbutton {
     background-color: rgb(159, 83, 159);
     border: none;
     color: white;

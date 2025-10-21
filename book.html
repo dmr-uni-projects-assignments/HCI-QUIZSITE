@@ -8,13 +8,25 @@
 </head>
 <body>
     <header>
-        <h1>ClinicCheck</h1>
+        <h1>Book a slot</h1>
     </header>
     <content>
-        <p>Welcome to ClinicCheck! Please navigate using the menu below:</p>
+        <h2>Please select a date and time to book your appointment at ClinicCheck.</h2>
         <br>
-        <a href="book.html" class="bigbutton">Book an Appointment</a><br><br>
-        <a href="queue.html" class="bigbutton">View Queue Status</a>
+        <form action="queue.html"></form>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="time" required>
+            <br><br>
+            <select>
+                <option>General</option>
+                <option>Dental</option>
+            </select>
+            <br><br>
+        </form>
+        <a href="queue.html" class="bigbutton">Book</a>
     </content>
 </body>
 </html>
